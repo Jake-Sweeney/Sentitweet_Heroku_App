@@ -1,0 +1,62 @@
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+body {
+    background-color: deepskyblue;
+    width: auto;
+}
+
+.searchFormDiv {
+    margin: auto;
+    padding: 5% 5% 5% 5%;
+}
+
+.graphFormDiv {
+   text-align: center;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+#searchText {
+    font: 30px sans-serif;
+    color: navy;
+}
+
+#inputField {
+    height: 40px;
+    font-size: 30px;
+}
+
+#searchButton, #graphButton {
+    font: 30px sans-serif;
+    height: 40px;
+}
+
+#resultsText {
+    font-size: 20px;
+    color: white;
+}
+
+#tweetsTable {
+    width: 100%;
+}
+
+#tweetsTable, th, td{
+    border: 1px ridge navy;
+    color: #000000;
+}
+
+footer {
+    color: white;
+    clear: both;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
